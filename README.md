@@ -14,18 +14,22 @@ This repository serves as a collaborative research workspace where each subsyste
 
 ```
 eden-research/
+├── RESEARCH_OUTLINE.md    # 🎯 Master research roadmap
 ├── software/           # Software subsystem research
 │   ├── reading-list.md    # Curated links to papers, docs, videos
 │   ├── notes/             # Freeform research notes and meeting summaries
 │   └── outlines/          # Structured research plans and findings
+│       └── software-research-outline.md
 ├── hardware/          # Hardware subsystem research
 │   ├── reading-list.md    # Curated links to papers, docs, videos
 │   ├── notes/             # Freeform research notes and meeting summaries
 │   └── outlines/          # Structured research plans and findings
+│       └── hardware-research-outline.md
 ├── general/           # General project research
 │   ├── reading-list.md    # Curated links to papers, docs, videos
 │   ├── notes/             # Freeform research notes and meeting summaries
 │   └── outlines/          # Structured research plans and findings
+│       └── general-research-outline.md
 ├── README.md          # This file
 ├── CONTRIBUTING.md    # Guidelines for contributing research
 └── .gitignore         # Git ignore rules
@@ -35,9 +39,10 @@ eden-research/
 
 ### For New Contributors
 
-1. **Choose your subsystem**: Navigate to the appropriate folder (`software/`, `hardware/`, or `general/`)
-2. **Read existing research**: Check the `reading-list.md` and browse `notes/` and `outlines/` folders
-3. **Add your research**: Follow the guidelines in `CONTRIBUTING.md`
+1. **Start with the master outline**: Read [RESEARCH_OUTLINE.md](RESEARCH_OUTLINE.md) for the complete research roadmap
+2. **Choose your subsystem**: Navigate to the appropriate folder (`software/`, `hardware/`, or `general/`)
+3. **Read existing research**: Check the `reading-list.md` and browse `notes/` and `outlines/` folders
+4. **Add your research**: Follow the guidelines in `CONTRIBUTING.md`
 
 ### Example Workflow
 
